@@ -10,7 +10,7 @@ The script `preprocess_text.py` reads text data from a file named `data.txt` and
 - Stopword Removal: Removing common words like "the", "is", "and", etc., which do not carry significant meaning.
 - Punctuation Removal: Eliminating punctuation marks from the text.
 - Lemmatization: Reducing words to their base or root form to handle variations like plurals, verb tenses, etc.
-
+- HTML Tag Removal: Stripping HTML tags from the text to clean it from any markup.
 The preprocessed data is stored as a list of lists, where each sublist contains the preprocessed tokens for each line of text in `data.txt`.
 
 ## Installation
